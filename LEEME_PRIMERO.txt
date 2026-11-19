@@ -1,0 +1,22 @@
+PRÁCTICA 10 - CRUD ESTUDIANTES UNS
+
+1. Abre README.md para las instrucciones completas.
+2. En XAMPP activa MySQL y Apache.
+3. Crea la base ejecutando database/crear_base.sql en phpMyAdmin.
+4. Abre una terminal en esta carpeta y ejecuta:
+   composer install
+   copy .env.example .env
+   php artisan key:generate
+   php artisan config:clear
+   php artisan migrate --seed
+   php artisan serve
+5. Abre http://localhost:8000/estudiantes
+
+El ZIP es código limpio: no incluye vendor ni .env. Composer descarga
+las dependencias exactas de composer.lock y .env.example contiene la
+configuración inicial de XAMPP. No hace falta ejecutar npm.
+
+Completa nombres, códigos de los integrantes y nombre del docente
+en la versión editable del informe antes de exportarla a PDF y entregarla.
+Las evidencias corresponden a la ejecución real en el entorno de verificación;
+puedes complementarlas con capturas de tu XAMPP para la exposición.
